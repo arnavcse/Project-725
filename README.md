@@ -1,4 +1,4 @@
-# CS 725 - From Theory to Application: Project Roadmap 🚀
+# CS 725 - From Theory to Application: Project Roadmap under the guidance of Professor Sunita Sarawagi 🚀
 
 ![Strokes Uncovered](https://img.shields.io/badge/Strokes%20Uncovered-Machine%20Learning%20Exploration%20and%20Predictive%20Insights-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.7%20%7C%203.8%20%7C%203.9-blue)
@@ -8,10 +8,10 @@
 
 Meet the brilliant minds behind this project:
 
-- Anuj Attri (23M0808) 👨‍🎓
-- Arnav Attri (23M0811) 👨‍🎓
-- Satheeshkumar M (23D0198) 👨‍🎓
-- Piyush Paliwal (30005245) 👨‍🎓
+- **Anuj Attri (23M0808)** 👨‍🎓
+- **Arnav Attri (23M0811**) 👨‍🎓
+- **Satheeshkumar M (23D0198)** 👨‍🎓
+- **Piyush Paliwal (30005245)** 👨‍🎓
 
 ## Project Title 📝
 

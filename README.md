@@ -15,7 +15,7 @@ Meet the brilliant minds behind this project:
 
 ## Project Title 📝
 
-**Strokes Uncovered: Machine Learning Exploration and Predictive Insights for Stroke Prevention** 🧠
+***🧠 Strokes Uncovered: Machine Learning Exploration and Predictive Insights for Stroke Prevention*** 🧠
 
 ## Abstract 🌐
 

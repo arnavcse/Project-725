@@ -1,0 +1,5 @@
+#Terminal steps to begin
+
+conda activate lightgbm-env
+jupyter notebook
+conda deactivate

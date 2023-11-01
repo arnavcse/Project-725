@@ -109,3 +109,42 @@ After successfully navigating through the complex terrain of Exploratory Data An
 
 4. **Model Deployment - Building a Web Application:** The grand finale of our technical journey will be the creation of an interactive web application. This application will allow users to directly experience the outcomes of our hard work and research.
 
+**Files in this GitHub Repository**
+- `Mid Report.ipynb`: Jupyter Notebook containing the project code. 👨🏼‍💻
+- `environment.yml`: Environment file for recreating the project's Python environment.
+- `README.md`: You're reading it right now! 😉
+- `requirements.txt`: Python package requirements. 🌐
+- `stroke.csv`: The dataset used for analysis. 🗄️
+- `Setup steps.txt`: Detailed terminal steps for running the project.
+- `CS_725_Mid_Term.pdf`: Additional information about the project's roadmap.🚗
+- `CS725 Proposal`: From where it all began. 😊
+
+
+## Setup 🛠️
+
+Follow these steps in your terminal to set up the environment:
+
+1. **Navigate to the Project Folder:**
+   - Open your terminal and use the `cd` command to go to the folder where you cloned or downloaded this repository.
+
+2. **Activate the Conda Environment:**
+   - Activate the Conda environment using the following command:
+     ```bash
+     conda activate lightgbm-env
+     ```
+3. **Launch Jupyter Notebook:**
+   - Start Jupyter Notebook by running:
+     ```bash
+     jupyter notebook
+     ```
+4. **Deactivate Conda Environment:**
+   - Once you're done working with the Jupyter (ipynb) notebook, deactivate the Conda environment using:
+     ```bash
+     conda deactivate
+     ```
+This **setup** will get you ready to work on your project with the required environment. Enjoy your data exploration and analysis!
+
+Feel free to explore, contribute, and uncover the secrets of strokes with us! 🕵️‍♀️🔍
+---
+
+**License**: This project is licensed under the [MIT License](LICENSE).

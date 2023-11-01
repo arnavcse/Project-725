@@ -117,8 +117,6 @@ After successfully navigating through the complex terrain of Exploratory Data An
 - `stroke.csv`: The dataset used for analysis. 🗄️
 - `Setup steps.txt`: Detailed terminal steps for running the project.
 - `CS_725_Mid_Term.pdf`: Additional information about the project's roadmap.🚗
-- `CS725 Proposal`: From where it all began. 😊
-
 
 ## Setup 🛠️
 

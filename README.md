@@ -1,4 +1,3 @@
-![Intro](https://imgur.com/7SY38Vu.png) 
 
 # 🚀 CS 725 - From Theory to Application: Project Roadmap under the guidance of Professor Sunita Sarawagi. 
 ![Strokes](https://i.imgur.com/2zNegPi.png)

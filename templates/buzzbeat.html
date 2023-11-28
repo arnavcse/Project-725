@@ -1,0 +1,79 @@
+<!-- templates/buzzbeat.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>BuzzBeat</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: white;
+        overflow: hidden;
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        color: black;
+    }
+</style>
+<body class="d-flex flex-column min-vh-100">
+    {% include 'navbar.html' %}
+    <div class="container">
+        <h1>LATEST MEDIA ARTICLES</h1>
+
+        <div class="article">
+            <h2>Apple co-founder Steve Wozniak reportedly suffers possible stroke in Mexico</h2>
+            <p>In a recent article by The New York Post on November 9, 2023, Apple co-founder Steve Wozniak is reported to have
+                suffered a possible stroke in Mexico.
+                <a href="https://nypost.com/2023/11/09/news/steve-wozniak-reportedly-suffers-possible-stroke-in-mexico/">Read more</a>
+            </p>
+        </div>
+
+        <div class="article">
+            <h2>Experts Predict 50% Increase in Stroke-related Deaths by 2050</h2>
+            <p>In a recent article by The Washington Post, published on October 19, 2023, experts predict a potential 50% increase
+                in stroke-related deaths by the year 2050.
+                <a href="https://www.washingtonpost.com/health/2023/10/19/stroke-deaths-could-double-2050/">Read more</a>
+            </p>
+        </div>
+
+        <div class="article">
+            <h2>Higher Incidence and Severity of Strokes in Women</h2>
+            <p>The New York Times, in an October 18, 2023 report, sheds light on the higher incidence and severity of strokes in
+                women.
+                <a href="https://www.nytimes.com/2023/10/18/well/live/stroke-prevention-risk-women.html">Read more</a>
+            </p>
+        </div>
+
+        <div class="article">
+            <h2>World Stroke Day: 33,425 Individuals Estimated to Suffer from Strokes</h2>
+            <p>Forbes’ recent piece on October 29, 2023, emphasizes the stark reality that, on World Stroke Day, a staggering 33,425
+                individuals are estimated to suffer from strokes, with only 1,000 of them receiving life-saving treatments.
+                <a href="https://tinyurl.com/37pmsbn8">Read more</a>
+            </p>
+        </div>
+
+        <div class="article">
+            <h2>Stroke Could Cause Nearly 10 Million Deaths per Year by 2050</h2>
+            <p>A report by CBS News Sacramento highlights that stroke could cause nearly 10 million deaths per year by 2050.
+                <a href="https://www.cbsnews.com/sacramento/news/report-stroke-could-cause-nearly-10-million-deaths-per-year-by-2050/">Read more</a>
+            </p>
+        </div>
+    </div>
+
+    {% include 'footer.html' %}
+
+    
+</body>
+
+</html>

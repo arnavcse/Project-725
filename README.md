@@ -1,5 +1,5 @@
 
-# 🚀 CS 725 - From Theory to Application: Project Roadmap under the guidance of Professor Sunita Sarawagi. 
+# 🚀 CS 725 - Strokes Uncovered: Machine Learning Exploration and Predictive Insights under the guidance of Professor Sunita Sarawagi. 
 ![Strokes](https://i.imgur.com/2zNegPi.png)
 
 ![Strokes Uncovered](https://img.shields.io/badge/Strokes%20Uncovered-Machine%20Learning%20Exploration%20and%20Predictive%20Insights-brightgreen)

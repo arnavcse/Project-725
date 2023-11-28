@@ -1,0 +1,91 @@
+<!-- templates/welcome.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Stroke Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles_welcome.css') }}">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Your Chosen Font', sans-serif;
+            background: linear-gradient(to right, white);
+            /* Adjust the background gradient colors as needed */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            position: relative;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image-container {
+            margin-top: 0px;
+        }
+
+        .image-container img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .start-button {
+            margin-top: 20px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-image: linear-gradient(to right, #ee0979 0%, #ff6a00 51%, #ee0979 100%);
+            background-size: 200% auto;
+            color: white;
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            border: none;
+            cursor: pointer;
+        }
+
+        .start-button:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer {
+            margin-top: auto;
+            text-align: center;
+            padding: 0px;
+            color: black; /* Change footer text color */
+        }
+    </style>
+</head>
+
+<body>
+
+    {% include 'navbar.html' %}
+
+    <div class="container">
+        <div class="image-container">
+            <img src="{{ url_for('static', filename='welcome.png') }}" alt="Image Description">
+        </div>
+        <form action="{{ url_for('form') }}" method="get">
+            <input type="submit" value="Start" class="start-button">
+        </form>
+    </div>
+
+    {% include 'footer.html' %}
+
+</body>
+
+</html>

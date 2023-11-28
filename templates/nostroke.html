@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Include this in the head section of your HTML pages -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Diagnosis</title>
+</head>
+
+<body>
+    {% include 'navbar.html' %}
+
+    <!-- Add the image at the top center -->
+    <div class="image-container">
+        <img src="{{ url_for('static', filename='nostroke.png') }}" alt="No Stroke Image" class="nostroke-image">
+    </div>
+
+    <div class="jumbotron hero-nature">
+       
+    </div>
+
+    <style>
+        .image-container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .nostroke-image {
+            max-width: 50%;
+            height: auto;
+        }
+
+        div.jumbotron.hero-nature {
+            color: white;
+            text-align: center;
+            background: url('bg.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        body {
+            background-color: white;
+            margin: 0; /* Remove default margin */
+        }
+
+        .col-lg-4 {
+            color: white;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: white; /* Adjust background color as needed */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Add the footer -->
+    <div class="footer">
+        {% include 'footer.html' %}
+    </div>
+</body>
+
+</html>

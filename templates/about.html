@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>About</title>
+    <style>
+        body {
+            background-color: white;
+            margin: 0; /* Remove default margin */
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+
+        .header-image {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header-image img {
+            max-width: 50%;
+            height: auto;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: white; /* Adjust background color as needed */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    {% include 'navbar.html' %}
+
+    <!-- Add the image at the top center -->
+    <div class="header-image">
+        <img src="{{ url_for('static', filename='about.png') }}" alt="About Image">
+    </div>
+
+
+    <!-- Add the footer -->
+    <div class="footer">
+        {% include 'footer.html' %}
+    </div>
+</body>
+
+</html>

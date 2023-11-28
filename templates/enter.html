@@ -1,0 +1,54 @@
+<!-- templates/enter.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Enter</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white; /* Set background color */
+            overflow: hidden; /* Hide the scroll bar */
+            display: flex;
+            height: 100vh; /* Set the height to the full viewport height */
+            flex-direction: column; /* Adjust flex-direction to column */
+        }
+
+        .gifs-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            flex-grow: 1; /* Allow the gifs-container to grow and take remaining space */
+        }
+
+        .strokes-gif,
+        .uncovered-gif {
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        footer {
+            text-align: center; /* Align text to the right */
+            padding: 10px;
+            color: black; /* Change footer text color */
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100" onclick="window.location.href='{{ url_for('welcome') }}'">
+    <div class="gifs-container">
+        <img src="{{ url_for('static', filename='strokes.gif') }}" class="strokes-gif" alt="Strokes GIF">
+    </div>
+
+    {% include 'footer.html' %}
+</body>
+
+</html>

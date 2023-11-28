@@ -1,0 +1,58 @@
+<!-- error.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Include this in the head section of your HTML pages -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 40px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: white; /* Adjust background color as needed */
+        }
+
+        .error-image {
+            max-width: 50%;
+            height: auto;
+            margin-top: 50px;
+        }
+    </style>
+    <title>Error</title>
+</head>
+
+<body>
+    {% include 'navbar.html' %}
+    <div class="content">
+        <img src="{{ url_for('static', filename='error.png') }}" alt="Error Image" class="error-image">
+      
+    </div>
+    <div class="footer">
+        {% include 'footer.html' %}
+    </div>
+</body>
+
+</html>
